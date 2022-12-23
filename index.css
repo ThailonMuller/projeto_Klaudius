@@ -5,3 +5,18 @@
 .icons-size{
     width: 32px;
 }
+.container-main{
+    margin-top: 2rem;
+    display: flex;
+    width: 100%;
+}
+.box-left{
+    width: 23%;
+    z-index: -1;  
+}
+.square{    
+    width: 770px;
+    height: 630px;    
+    background: #005B7A 0% 0% no-repeat padding-box;
+    z-index: 1;
+}
