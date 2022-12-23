@@ -10,13 +10,15 @@
     display: flex;
     width: 100%;
 }
-.box-left{
-    width: 23%;
-    z-index: -1;  
+.container-main > figure {
+    margin-left: 23%;
+    margin-right: 90px;
 }
 .square{    
+    position: absolute;
+    top: 310px;
+    left: 0px;
     width: 770px;
-    height: 630px;    
+    height: 630px;   
     background: #005B7A 0% 0% no-repeat padding-box;
-    z-index: 1;
 }
