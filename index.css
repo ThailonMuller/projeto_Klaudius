@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
 }
-
 :root {    
   --color1-wt: #FFFFFF;
   --color2-bk: #000000;
@@ -32,9 +31,6 @@
 }
 .margin_header{
   margin-top: 2rem;
-}
-.mg_header{
-  width: 111%;
 }
 .text_paragraph{
   color: #fff;
