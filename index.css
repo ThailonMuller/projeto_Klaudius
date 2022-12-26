@@ -13,7 +13,9 @@
 /* font-family: 'Ubuntu', sans-serif; */
 
 /* font: font-style font-variant font-weight font-size/line-height font-family; */
-
+.margin_header{
+  margin-top: 2rem;
+}
 .square_blue{
   background-color: var(--color3-bl);
   position: absolute;
@@ -23,15 +25,11 @@
   left: 0px;
 }
 .titulo{
-  font: normal normal normal 55px Playfair Display;
+  font: normal normal normal 55px/70px Playfair Display;
   letter-spacing: 0px;
   color: var(--color1-wt);
   text-align: left;
-  margin: 106px 80px 0px 140px;
-  margin-right: 80px;
-}
-.margin_header{
-  margin-top: 2rem;
+  margin: 106px 80px 0px 130px;
 }
 .text_paragraph{
   color: #fff;
@@ -64,8 +62,7 @@
 .p_text{
   text-align: center;
   margin: auto;
-  width: 30%; 
+  width: 35%; 
   font: normal normal normal 20px/35px Ubuntu;
-  letter-spacing: 0px;
-  
+  letter-spacing: 0px;  
 }
