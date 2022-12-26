@@ -9,9 +9,10 @@
 }
 
 /* font-family: 'Playfair Display', serif; */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 /* font-family: 'Ubuntu', sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+/* font: font-style font-variant font-weight font-size/line-height font-family; */
 
 .square_blue{
   background-color: var(--color3-bl);
@@ -52,4 +53,19 @@
   text-align: left;
   font-weight: bold;
   letter-spacing: 4px;
+}
+.tittle_text{
+  
+  text-align: center;
+  font: normal normal bold 40px/45px Playfair Display;
+  letter-spacing: 0px;
+}
+
+.p_text{
+  text-align: center;
+  margin: auto;
+  width: 30%; 
+  font: normal normal normal 20px/35px Ubuntu;
+  letter-spacing: 0px;
+  
 }
