@@ -78,5 +78,28 @@
 }
 .armarios_{
   width: 400px;
-  margin: 0 3rem;
+}
+.largura_minima{
+  min-width: 14rem;
+  background-color: blue;
+}
+.img_responsive{
+  width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .armarios_size{
+    flex-direction: column;
+    align-items: center;
+  }
+  .armarios_column{
+    text-align: center;
+  }
+  .figure > img{
+    margin-top: 3rem;
+  }
+  .icons_size_direction{
+    text-align: center;
+    background-color: rebeccapurple;
+  }
 }
