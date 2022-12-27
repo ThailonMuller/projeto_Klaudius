@@ -76,3 +76,7 @@
   font: normal normal normal 20px/35px Ubuntu;
   letter-spacing: 0px;  
 }
+.armarios_{
+  width: 400px;
+  margin: 0 3rem;
+}
