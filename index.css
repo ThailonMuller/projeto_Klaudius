@@ -7,7 +7,12 @@
   --color2-bk: #000000;
   --color3-bl: #005B7A;
 }
-
+.font_Titulos{
+  font-family: 'Playfair Display', serif;
+}
+.font_ParagrafoseBotoes{
+  font-family: 'Ubuntu', sans-serif;
+}
 /* font-family: 'Playfair Display', serif; */
 
 /* font-family: 'Ubuntu', sans-serif; */
@@ -22,7 +27,6 @@
   width: 48.1rem;
   height: 39.3rem;
   margin: 10.3rem 0 0 0;
-
 }
 .titulo{
   position: relative;
@@ -62,13 +66,11 @@
   font-weight: bold;
   letter-spacing: 4px;
 }
-.tittle_text{
-  
+.tittle_text{ 
   text-align: center;
   font: normal normal bold 40px/45px Playfair Display;
   letter-spacing: 0px;
 }
-
 .p_text{
   text-align: center;
   margin: auto;
@@ -87,6 +89,22 @@
   width: 100%;
 }
 
+.inspiração{  
+  font: normal normal bold 40px/45px Playfair Display;
+  letter-spacing: 0px;
+}
+.veja_mais{
+  font: normal normal bold 20px/45px Ubuntu;
+  letter-spacing: 4px;
+}
+.atendendo{
+  font: normal normal normal 20px/35px Ubuntu;
+  letter-spacing: 0px;
+  text-align: center;
+  margin: 0 auto;
+  width: 32%;
+}
+
 @media screen and (max-width: 900px) {
   .armarios_size{
     flex-direction: column;
@@ -100,6 +118,5 @@
   }
   .icons_size_direction{
     text-align: center;
-    background-color: rebeccapurple;
   }
 }
