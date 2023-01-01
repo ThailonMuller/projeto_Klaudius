@@ -118,12 +118,48 @@
   filter: invert(1);
 }
 
+/* Formulário */
+.margin_formulario{
+  width: 32rem;
+}
+.style_form{
+  border-style: none;
+  border-bottom: 1px solid var(--color2-bk);
+}
+.box_size{
+  resize: none;
+}
+.titulo_contado{
+  font: normal normal bold 40px/45px Playfair Display;
+  letter-spacing: 0px;
+  color: var(--color1-wt);
+}
+.paragrafo_contato{
+  font: normal normal normal 20px/35px Ubuntu;
+  letter-spacing: 0px;
+  color: var(--color1-wt);
+}
+
+
+.bg_wall{
+  background-color: var(--color3-bl);
+}
+.btn_form{
+  background-color: var(--color3-bl);
+  width: 8rem;
+  height: 3rem;
+  padding: 0;
+  border: none;
+  color: var(--color1-wt);
+  font: normal normal bold 20px/45px Ubuntu;
+  letter-spacing: 4px;
+}
+
 
 
 
 
 /* Mobile */
-
 @media screen and (max-width: 900px) {
   .armarios_size{
     flex-direction: column;
