@@ -13,13 +13,6 @@
 
 /* font: font-style font-variant font-weight font-size/line-height font-family; */
 
-.square_blue{
-  background-color: var(--color3-bl);
-  position: relative;
-  width: 48.1rem;
-  height: 39.3rem;
-  margin: 10.3rem 0 0 0;
-}
 .titulo{
   position: relative;
   font: normal normal normal 55px/70px Playfair Display;
@@ -28,7 +21,7 @@
   text-align: left;
   width: 80%; 
   top: 6.62rem;
-  left: 8.5rem;
+  left: 6.5rem;
 }
 .text_paragraph{
   color: #fff;
@@ -40,19 +33,19 @@
   position: relative;
   width: 80%; 
   top: 7.62rem;
-  left: 8.5rem;
+  left: 6.5rem;
 }
 .linha_vertical{
   position: relative;
   top: 8.62rem;
-  left: 8.5rem;
+  left: 6.5rem;
   height: 75px;
   border-left: 2px solid var(--color1-wt);
 }
 .converse_c{
   position: relative;
   top: 10.62rem;
-  left: 8.5rem;
+  left: 6.5rem;
   color: #fff;
   text-align: left;
   font-weight: bold;
@@ -75,7 +68,6 @@
 }
 .largura_minima{
   min-width: 14rem;
-  background-color: blue;
 }
 .veja_mais{
   font: normal normal bold 20px/45px Ubuntu;
@@ -103,6 +95,13 @@
 }
 
 /* Quadrado azul */
+.square_blue{
+  background-color: var(--color3-bl);
+  position: relative;
+  width: 48.1rem;
+  height: 39.3rem;
+  margin: 10.3rem 0 0 0;
+}
 .square_blue_buttons{
   width: 5rem;
   height: 5rem;
@@ -157,24 +156,23 @@
   letter-spacing: 0px;
   margin-right: 4rem;
 }
-
+.content{
+  position: relative;
+}
 
 
 
 
 /* Mobile */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   .armarios_size{
     flex-direction: column;
     align-items: center;
   }
   .armarios_column{
     text-align: center;
-  }
-  .figure > img{
-    margin-top: 3rem;
-  }
-  .icons_size_direction{
-    text-align: center;
+  }  
+  .icons_size{
+    width: 50%;
   }
 }
