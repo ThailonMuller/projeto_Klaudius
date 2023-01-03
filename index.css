@@ -148,6 +148,16 @@
   letter-spacing: 4px;
 }
 
+.logo{
+  margin-left: 4rem;
+  width: 16rem;
+}
+.copy_right{
+  font: normal normal normal 20px/35px Ubuntu;
+  letter-spacing: 0px;
+  margin-right: 4rem;
+}
+
 
 
 
