@@ -13,20 +13,21 @@
 </head>
 <body>
   <header>
-    <div class="container mt-5">
+    <div class="container-fluid mt-5">
       <div class="row">       
-        <div class="col">
-          <img class="logo" src="assets/logomarca-colorida.png" alt="">
+        <div class="col d-flex align-items-center">
+          <img class="logo" src="assets/logomarca-colorida.png">
         </div>
-  
-        <div class="col d-flex justify-content-center">          
-            <ul class="nav mt-3">
-              <li class="nav-item">
-                <a class="nav-link active text-dark" aria-current="page" href="index.html">Home</a>
-              </li>
+
+        <!-- Menu navegação -->
+        <div class="col d-flex justify-content-center align-items-center">          
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active text-dark" aria-current="page" href="index.html">Home</a>
+            </li>
               <li class="nav-item">                
                 <div class="dropdown">
-                  <button class="drop_produtos drop_menu dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <button class="drop_produtos drop_menu" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Produtos
                   </button>
                   <ul class="dropdown-menu">
@@ -42,15 +43,17 @@
                   </ul>
                 </div>
               </li>
-              <li class="nav-item">
-                <a class="nav-link text-dark" href="k_quemsomos.html">Quem somos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-dark" href="k_contato.html">Contato</a>
-              </li> 
-            </ul>                       
-        </div>
-        <div class="col align-items-center d-flex justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="k_quemsomos.html">Quem somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="k_contato.html">Contato</a>
+            </li> 
+        </ul>                       
+      </div>
+
+        <!-- Rede Social -->     
+        <div class="col align-items-center d-flex justify-content-end m_redesocial">
           <li class="nav-item d-flex">
             <a class="nav-link text-light" href="#"><img style="width: 32px;" src="assets/icone-10-facebook.png" alt="facebook"></a>
             <a class="nav-link text-light" href="#"><img style="width: 32px;" src="assets/icone-11-instagram.png" alt="instagram"></a>
@@ -67,10 +70,10 @@
         <div class="row">
           <div class="col-2 p-0">
             <div class="square_blue">
-              <h1 class="titulo">Soluções e inspirações para o seu escritório!</h1>
-              <p class="text_paragraph">Temos diversos ambientes corporativos para melhor atender você e sua empresa, solicite um orçamento sem compromisso.</p>
-              <div class="linha_vertical"></div>
-              <p class="converse_c">CONVERSE CONOSCO</p>
+              <h1 class="ft_title_solucoes">Soluções e inspirações para o seu escritório!</h1>
+              <p class="ft_text_temos">Temos diversos ambientes corporativos para melhor atender você e sua empresa, solicite um orçamento sem compromisso.</p>
+              <div class="vertical_line"></div>
+              <p class="ft_text_converse">CONVERSE CONOSCO</p>
             </div>
           </div>
 
@@ -83,7 +86,7 @@
       <section>
         <div class="row mt-5 ">
           <div class="col-12 text-center">
-            <h2 class="tittle_text">Seu escritório não será mais o mesmo</h2>
+            <h2 class="ft_title_seuescritorio">Seu escritório não será mais o mesmo</h2>
           </div>
         </div> 
         <div>        
@@ -93,8 +96,8 @@
         </div>           
         
         <div class="row">
-          <div class="col-12">
-            <p class="p_text">Deixe seu ambiente mais confortável, elegante e prático com nossa linha completa de móveis para escritório ou home office.</p>
+          <div class="col">
+            <p class="ft_text_deixe">Deixe seu ambiente mais confortável, elegante e prático com nossa linha completa de móveis para escritório ou home office.</p>
           </div>
         </div>
       </section>
@@ -118,34 +121,33 @@
       </section>
 
       <section>
-        <div class="row armarios_column align-items-center mt-5">         
-          <div class="col-12 d-flex text-center flex-content">
-            <div class="col-3 flex-wrap">
-              <figure class="figure">
-                <img src="assets/Armário alto semi aberto 2 portas M25 preto_1.png" class="img-fluid rounded largura_minima">
-                <figcaption class="mt-4 text-center">Armário alto semi aberto 2 portas M25 preto</figcaption>
-              </figure>
-            </div>
-
-            <div class="col-3">
-              <figure class="figure">
-                <img src="assets/Armário alto semi aberto 2 portas M25 preto_1.png" class="img-fluid rounded largura_minima">
-                <figcaption class="mt-4 text-center">Armário alto semi aberto 2 portas M25 preto</figcaption>
-              </figure>
-            </div>
-
-            <div class="col-3">
-              <figure class="figure">
-                <img src="assets/Armário alto semi aberto 2 portas M25 preto_1.png" class="img-fluid rounded largura_minima">
-                <figcaption class="mt-4 text-center">Armário alto semi aberto 2 portas M25 preto</figcaption>
-              </figure>
-            </div>
-
-            <div class="col-3">
-              <figure class="figure">
-                <img src="assets/Armário alto semi aberto 2 portas M25 preto_1.png" class="img-fluid rounded largura_minima">
-                <figcaption class="mt-4 text-center">Armário alto semi aberto 2 portas M25 preto</figcaption>
-              </figure>
+        <div class="container-fluid">
+          <div class="row armarios_column align-items-center mt-5">
+            <div class="col d-flex text-center flex-content flex-wrap">
+              <div class="col">
+                <figure class="figure largura_m">
+                  <img src="assets/Armário alto semi aberto 2 portas M25 preto_1.png" class="img-fluid rounded">
+                  <figcaption class="mt-4 text-center"><p class="pe-2">Armário alto semi aberto 2 portas M25 preto</p></figcaption>
+                </figure>
+              </div>
+              <div class="col">
+                <figure class="figure largura_m">
+                  <img src="assets/Armário alto semi aberto 2 portas M25 preto_1.png" class="img-fluid rounded">
+                  <figcaption class="mt-4 text-center"><p class="pe-2">Armário alto semi aberto 2 portas M25 preto</p></figcaption>
+                </figure>
+              </div>
+              <div class="col">
+                <figure class="figure largura_m">
+                  <img src="assets/Armário alto semi aberto 2 portas M25 preto_1.png" class="img-fluid rounded">
+                  <figcaption class="mt-4 text-center"><p class="pe-2">Armário alto semi aberto 2 portas M25 preto</p></figcaption>
+                </figure>
+              </div>
+              <div class="col">
+                <figure class="figure largura_m">
+                  <img src="assets/Armário alto semi aberto 2 portas M25 preto_1.png" class="img-fluid rounded">
+                  <figcaption class="mt-4 text-center"><p class="pe-2">Armário alto semi aberto 2 portas M25 preto</p></figcaption>
+                </figure>
+              </div>
             </div>
           </div>
         </div>

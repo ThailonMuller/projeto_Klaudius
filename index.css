@@ -13,17 +13,26 @@
 
 /* font: font-style font-variant font-weight font-size/line-height font-family; */
 
-.titulo{
+.m_redesocial{
+  margin-right: 8rem;
+}
+
+.ft_title_solucoes{
   position: relative;
   font: normal normal normal 55px/70px Playfair Display;
   letter-spacing: 0px;
   color: var(--color1-wt);
   text-align: left;
   width: 80%; 
-  top: 6.62rem;
+  top: 5.62rem;
   left: 6.5rem;
 }
-.text_paragraph{
+.ft_title_seuescritorio{
+  text-align: center;
+  font: normal normal bold 40px/45px Playfair Display;
+  letter-spacing: 0px;
+}
+.ft_text_temos{
   color: #fff;
   font-size: 25px;
   font-family: 'Ubuntu', sans-serif;
@@ -35,28 +44,23 @@
   top: 7.62rem;
   left: 6.5rem;
 }
-.linha_vertical{
+.ft_text_converse{
+  position: relative;
+  top: 10.62rem;
+  left: 6.5rem;
+  color: #fff;
+  text-align: left; 
+  font: normal normal bold 20px/45px Ubuntu;
+  letter-spacing: 4px;
+}
+.vertical_line{
   position: relative;
   top: 8.62rem;
   left: 6.5rem;
   height: 75px;
   border-left: 2px solid var(--color1-wt);
 }
-.converse_c{
-  position: relative;
-  top: 10.62rem;
-  left: 6.5rem;
-  color: #fff;
-  text-align: left;
-  font-weight: bold;
-  letter-spacing: 4px;
-}
-.tittle_text{ 
-  text-align: center;
-  font: normal normal bold 40px/45px Playfair Display;
-  letter-spacing: 0px;
-}
-.p_text{
+.ft_text_deixe{
   text-align: center;
   margin: auto;
   width: 35%; 
@@ -64,7 +68,7 @@
   letter-spacing: 0px;  
 }
 
-.largura_minima{
+.largura_m{
   min-width: 14rem;
 }
 .veja_mais{
@@ -145,6 +149,7 @@
   letter-spacing: 4px;
 }
 
+/* Footer */
 .logo{
   margin-left: 4rem;
   width: 16rem;
