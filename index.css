@@ -5,7 +5,7 @@
 :root {    
   --color1-wt: #FFFFFF;
   --color2-bk: #000000;
-  --color3-bl: #005B7A;
+  --color3-bl: #005B7A;  
 }
 /* font-family: 'Playfair Display', serif; */
 
@@ -63,9 +63,7 @@
   font: normal normal normal 20px/35px Ubuntu;
   letter-spacing: 0px;  
 }
-.armarios_{
-  width: 400px;
-}
+
 .largura_minima{
   min-width: 14rem;
 }
@@ -156,19 +154,15 @@
   letter-spacing: 0px;
   margin-right: 4rem;
 }
-.content{
-  position: relative;
-}
-
 
 
 
 /* Mobile */
 @media screen and (max-width: 1000px) {
-  .armarios_size{
+  /* .armarios_size{
     flex-direction: column;
     align-items: center;
-  }
+  } */
   .armarios_column{
     text-align: center;
   }  
