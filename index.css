@@ -17,6 +17,31 @@
   margin-right: 8rem;
 }
 
+/* Header */
+.nav_style{
+  font: normal normal bold 20px/24px Ubuntu;
+  letter-spacing: 0px;
+}
+span:hover{
+  border-bottom: solid 3px var(--color3-bl);
+  padding-bottom: 0.5rem;
+  transition: 0.2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .ft_title_solucoes{
   position: relative;
   font: normal normal normal 55px/70px Playfair Display;

@@ -18,15 +18,9 @@
     letter-spacing: 0px;
     color: var(--color1-wt);
 }
-.nav_produtos{
-   font-family: 'Ubuntu';
-   font-weight: bold;
-   border: none;
-   background-color: #fff;
-}
-.drop_produtos{
-    margin: 8px 0;
-    padding: 0;
+.drop_produtos{    
+    text-align: center;
+    padding: 8px 16px;
     border: none;
     background-color: #fff;
 }
