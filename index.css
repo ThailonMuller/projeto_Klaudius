@@ -140,19 +140,20 @@ span:hover{
   filter: invert(1);
 }
 
-
-/* Formulário */
-.margin_formulario{
-  width: 32rem;
+/* Envie uma mensagem, tarja azul */
+.bg_wall{
+  background-image: url(assets/imagem-contato-filtro.png);
 }
-.style_form{
-  border-style: none;
-  border-bottom: 1px solid var(--color2-bk);
+.btn_submit{
+  background-color: var(--color3-bl);
+  width: 8rem;
+  height: 3rem;
+  padding: 0;
+  border: none;
+  color: var(--color1-wt);
+  font: normal normal bold 20px/45px Ubuntu;
+  letter-spacing: 4px;
 }
-.box_size{
-  resize: none;
-}
-
 
 .ft_title_contato{
   font: normal normal bold 40px/45px Playfair Display;
@@ -165,19 +166,16 @@ span:hover{
   color: var(--color1-wt);
 }
 
-
-.bg_wall{
-  background-color: var(--color3-bl);
+/* Formulário */
+.margin_formulario{
+  width: 32rem;
 }
-.btn_submit{
-  background-color: var(--color3-bl);
-  width: 8rem;
-  height: 3rem;
-  padding: 0;
-  border: none;
-  color: var(--color1-wt);
-  font: normal normal bold 20px/45px Ubuntu;
-  letter-spacing: 4px;
+.style_form{
+  border-style: none;
+  border-bottom: 1px solid var(--color2-bk);
+}
+.box_size{
+  resize: none;
 }
 
 /* Footer */
