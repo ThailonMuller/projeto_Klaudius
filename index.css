@@ -16,6 +16,9 @@
 .m_redesocial{
   margin-right: 8rem;
 }
+.largura_m{
+  min-width: 14rem;
+}
 
 /* Header */
 .nav_style{
@@ -28,19 +31,14 @@ span:hover{
   transition: 0.2s;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.box_whatsapp{  
+  background-color: #25D366;
+  margin-right: 8rem;
+  border-radius: 50%;
+  padding: 18px;
+  position: static;
+  margin-top: -6rem;
+}
 
 .ft_title_solucoes{
   position: relative;
@@ -92,34 +90,28 @@ span:hover{
   font: normal normal normal 20px/35px Ubuntu;
   letter-spacing: 0px;  
 }
-
-.largura_m{
-  min-width: 14rem;
-}
-.veja_mais{
+.ft_text_vejamais{
   font: normal normal bold 20px/45px Ubuntu;
   letter-spacing: 4px;
 }
-.titulos{  
+.ft_title_seuescritorio{
   font: normal normal bold 40px/45px Playfair Display;
   letter-spacing: 0px;
 }
-.paragrafos{
+.ft_text_atendendo{
   font: normal normal normal 20px/35px Ubuntu;
   letter-spacing: 0px;
   text-align: center;
   margin: 0 auto;
   width: 32%;
 }
-.margin_text{
-  margin-left: 18rem;
-}
-.converse_com_agente{
+.ft_title_converse{
   font: normal normal bold 40px/45px Playfair Display;
 }
-.ficou_interessado{
+.ft_text_ficou{
   font: normal normal normal 20px/35px Ubuntu;
 }
+
 
 /* Quadrado azul */
 .square_blue{
@@ -150,20 +142,24 @@ span:hover{
 .box_size{
   resize: none;
 }
-.titulo_contado{
+
+
+.ft_title_contato{
   font: normal normal bold 40px/45px Playfair Display;
   letter-spacing: 0px;
   color: var(--color1-wt);
 }
-.paragrafo_contato{
+.ft_text_contato{
   font: normal normal normal 20px/35px Ubuntu;
   letter-spacing: 0px;
   color: var(--color1-wt);
 }
+
+
 .bg_wall{
   background-color: var(--color3-bl);
 }
-.btn_form{
+.btn_submit{
   background-color: var(--color3-bl);
   width: 8rem;
   height: 3rem;

@@ -12,21 +12,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>  
-    <div class="container mt-5">
-      <div class="row mg_header">       
-        <div class="col-3">
-          <img class="logo" width="90%" src="assets/logomarca-colorida.png" alt="">
+  <header>
+    <div class="container-fluid mt-5">
+      <div class="row">       
+        <div class="col d-flex align-items-center">
+          <img class="logo" src="assets/logomarca-colorida.png">
         </div>
 
-        <div class="col-7 d-flex justify-content-center">          
-            <ul class="nav mt-3">
-              <li class="nav-item">
-                <a class="nav-link active text-dark" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">                
+        <!-- Menu navegação -->
+        <div class="col d-flex justify-content-center align-items-center">          
+          <ul class="nav">
+            <li class="nav-item nav_style">
+              <a class="nav-link text-dark line_horizontal" aria-current="page" href="index.html"><span>Home</span></a>
+            </li>
+              <li class="nav-item nav_style">                
                 <div class="dropdown">
-                  <button class="drop_produtos drop_menu dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Produtos
+                  <button class="drop_produtos nav_style" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span>Produtos</span>
                   </button>
                   <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="armarios.html">Armários</a></li>
@@ -41,15 +43,17 @@
                   </ul>
                 </div>
               </li>
-              <li class="nav-item">
-                <a class="nav-link text-dark" href="k_quemsomos.html">Quem somos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-dark" href="k_contato.html">Contato</a>
+              <li class="nav-item nav_style">
+                <a class="nav-link text-dark" href="k_quemsomos.html"><span>Quem somos</span></a>
               </li> 
-            </ul>                       
-        </div>
-        <div class="col align-items-center d-flex justify-content-end">
+              <li class="nav-item nav_style">
+                <a class="nav-link text-dark" href="k_contato.html"><span>Contato</span></a>
+              </li> 
+          </ul>                       
+          </div>
+
+        <!-- Rede Social -->     
+        <div class="col align-items-center d-flex justify-content-end m_redesocial">
           <li class="nav-item d-flex">
             <a class="nav-link text-light" href="#"><img style="width: 32px;" src="assets/icone-10-facebook.png" alt="facebook"></a>
             <a class="nav-link text-light" href="#"><img style="width: 32px;" src="assets/icone-11-instagram.png" alt="instagram"></a>
@@ -57,6 +61,7 @@
         </div>  
       </div>
     </div>
+  </header>
     <main>        
         <div class="container-fluid">
             <div class="row mt-5">
