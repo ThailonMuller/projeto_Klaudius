@@ -111,7 +111,7 @@ span:hover{
 }
 
 
-/* Quadrado azul */
+/* Quadrado azul Soluções e Inspirações*/
 .square_blue{
   background-color: var(--color3-bl);
   position: relative;
@@ -119,15 +119,27 @@ span:hover{
   height: 39.3rem;
   margin: 10.3rem 0 0 0;
 }
+
+
+/* Botoes Converse com a gente telefone, e-mail, endereço, WhatsApp */
 .square_blue_buttons{
   width: 5rem;
   height: 5rem;
   background-color: var(--color3-bl);
+  border: none;
 }
-
+.ft_title_btns{
+  font: normal normal bold 20px/35px Playfair Display;
+  letter-spacing: 0px;
+}
+.ft_text_btns{
+  font: normal normal normal 20px/35px Ubuntu;
+  letter-spacing: 0px;
+}
 .icons_filter{
   filter: invert(1);
 }
+
 
 /* Formulário */
 .margin_formulario{
