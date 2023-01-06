@@ -30,7 +30,6 @@ span:hover{
   padding-bottom: 0.5rem;
   transition: 0.2s;
 }
-
 .box_whatsapp{  
   background-color: #25D366;
   margin-right: 8rem;
@@ -39,7 +38,6 @@ span:hover{
   position: static;
   margin-top: -6rem;
 }
-
 .ft_title_solucoes{
   position: relative;
   font: normal normal normal 55px/70px Playfair Display;
