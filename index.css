@@ -323,7 +323,7 @@ span:hover{
 
 /* galeria de imgs Inspiração 1 a 6 */
   .container_galeria > div > img{
-    justify-content: center;
+    justify-content: space-between;
   }
 
 }
