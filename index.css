@@ -86,10 +86,6 @@ nav {
   border-color: var(--color4-tr);
 }
 
-
-
-
-
 @media (max-width: 1140px) {
   body {
     overflow-x: hidden;
@@ -135,7 +131,6 @@ nav {
   transform: translateX(0);
 }
 
-
 @keyframes navLinkFade {
   from {
     opacity: 0;
@@ -171,48 +166,11 @@ span:hover{
   position: static;
   margin-top: -6rem;
 }
-.ft_title_solucoes{
-  position: relative;
-  font: normal normal normal 55px/70px Playfair Display;
-  letter-spacing: 0px;
-  color: var(--color1-wt);
-  text-align: left;
-  width: 80%; 
-  top: 5.62rem;
-  left: 6.5rem;
-}
+
 .ft_title_seuescritorio{
   text-align: center;
   font: normal normal bold 40px/45px Playfair Display;
   letter-spacing: 0px;
-}
-.ft_text_temos{
-  color: #fff;
-  font-size: 25px;
-  font-family: 'Ubuntu', sans-serif;
-  text-align: left;
-  font: normal normal normal 25px;
-  letter-spacing: 0px;
-  position: relative;
-  width: 80%; 
-  top: 7.62rem;
-  left: 6.5rem;
-}
-.ft_text_converse{
-  position: relative;
-  top: 10.62rem;
-  left: 6.5rem;
-  color: #fff;
-  text-align: left; 
-  font: normal normal bold 20px/45px Ubuntu;
-  letter-spacing: 4px;
-}
-.vertical_line{
-  position: relative;
-  top: 8.62rem;
-  left: 6.5rem;
-  height: 75px;
-  border-left: 2px solid var(--color1-wt);
 }
 .ft_text_deixe{
   text-align: center;
@@ -234,7 +192,7 @@ span:hover{
   letter-spacing: 0px;
   text-align: center;
   margin: 0 auto;
-  width: 32%;
+  width: 40%;
 }
 .ft_title_converse{
   font: normal normal bold 40px/45px Playfair Display;
@@ -244,14 +202,241 @@ span:hover{
 }
 
 
+
+
+
+
+
 /* Quadrado azul Soluções e Inspirações*/
+.container_banner{
+  width: 100%;
+  text-align: center;
+}
+.container_banner > img{
+  width: 1315px;
+}
 .square_blue{
   background-color: var(--color3-bl);
-  position: relative;
+  position: absolute;
   width: 48.1rem;
   height: 39.3rem;
-  margin: 10.3rem 0 0 0;
+  bottom: 0;
+  left: 0;
 }
+.text_margin{
+  width: 86%;
+  position: absolute;
+  top: 1rem;
+  bottom: 1rem;
+  left: 6rem;
+}
+.ft_title_solucoes{
+  position: relative;
+  font: normal normal normal 55px/70px Playfair Display;
+  letter-spacing: 0px;
+  color: var(--color1-wt);
+  text-align: left;
+  width: 90%;
+  top: 4.62rem;
+}
+.ft_text_temos{
+  color: #fff;
+  font: normal normal normal 25px/35px Ubuntu;
+  letter-spacing: 0px;
+  text-align: left;
+  position: relative;
+  width: 80%; 
+  top: 6.62rem;
+}
+.vertical_line{
+  position: relative;
+  top: 6.62rem;
+  height: 75px;
+  border-left: 2px solid var(--color1-wt);
+}
+.ft_text_converse{
+  position: relative;
+  top: 6.62rem;
+  color: #fff;
+  text-align: left; 
+  font: normal normal bold 20px/45px Ubuntu;
+  letter-spacing: 4px;
+}
+.container_galeria{
+  width: 100%;
+}
+
+
+@media (max-width: 1375px) { 
+  /* Square Blue */
+  .container_banner > img{
+    width: 100vw;
+  }
+  .square_blue{
+    width: 50%;
+    height: 50%;
+    bottom: 21%;
+  }
+  .text_margin{    
+    left: 3rem;
+  }
+  .ft_title_solucoes{
+    font-size: 45px;
+    width: 29rem;
+    top: 2rem;
+  }
+  .ft_text_temos{
+    font-size: 20px;
+    width: 29rem;
+    top: 3.0rem;
+  }
+  .vertical_line{
+    top: 3.32rem;
+    height: 42px;
+  }
+  .ft_text_converse{
+    font-size: 16px;
+    top: 3.32rem;
+  }
+
+/* icones */
+  .armarios_column{
+    text-align: center;
+  }  
+  .icons_size{
+    margin-left: 1rem;
+    width: 70%;
+  }
+/* whatsApp */
+  .box_whatsapp{
+    padding: 14px;
+    margin-top: -7rem;
+  }
+  .box_whatsapp img{
+    width: 34px;
+  }
+
+/* Inspiração para sua sala nova */
+  .ft_text_atendendo{
+    width: 80%;
+  }
+
+/* galeria de imgs Inspiração 1 a 6 */
+  .container_galeria > div > img{
+    justify-content: center;
+  }
+
+}
+
+@media (max-width: 1075px) {
+  .text_margin{    
+    left: 1rem;
+  }
+  .ft_title_solucoes{
+    font-size: 35px;
+    width: 28rem;
+    top: 2.8rem;
+    line-height: 3rem;
+  }
+  .ft_text_temos{
+    font-size: 18px;
+    width: 29rem;
+    top: 3.8rem;
+  }
+  .vertical_line{
+    top: 3.8rem;
+    height: 40px;
+  }
+  .ft_text_converse{
+    font-size: 14px;
+    top: 4.1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .square_blue{    
+    position: absolute;
+    width: 31rem;
+    height: 25rem;
+    bottom: 14rem;
+    left: 0;
+  }
+  .text_margin{    
+    left: 1rem;
+  }
+  .ft_title_solucoes{
+    font-size: 30px;
+    width: 28rem;
+    top: 3.8rem;
+    line-height: 3rem;
+  }
+  .ft_text_temos{
+    font-size: 16px;
+    width: 29rem;
+    top: 3.8rem;
+  }
+  .vertical_line{
+    top: 3.8rem;
+    height: 32px;
+  }
+  .ft_text_converse{
+    font-size: 13px;
+    top: 4.1rem;
+  }
+}
+
+@media (max-width: 819px) {
+  .text_margin{
+   width: 96%;
+  }
+  .square_blue{    
+    position: relative;
+    width: 100%;
+    height: 18rem;
+    bottom: 0;
+    left: 0;
+  }
+  .ft_title_solucoes{
+    text-align: center;
+    top: 0.5rem;
+    width: 100%;
+  }
+  .ft_text_temos{
+    text-align: center;
+    top: 1.8rem;
+    width: 100%;
+  }
+  .vertical_line{ 
+    left: 50%;  
+    top: 1.8rem;
+    height: 32px;
+  }
+  .ft_text_converse{
+    font-size: 13px;
+    top: 2.1rem;
+    text-align: center;
+    width: 100%;
+  }
+  
+}
+
+
+/* Mobile */
+@media (max-width: 660px) {   
+  .square_blue{ 
+    height: 23rem;     
+  }
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /* Botoes Converse com a gente telefone, e-mail, endereço, WhatsApp */
@@ -322,16 +507,3 @@ span:hover{
   margin-right: 4rem;
 }
 
-/* Mobile */
-@media screen and (max-width: 1000px) {
-  /* .armarios_size{
-    flex-direction: column;
-    align-items: center;
-  } */
-  .armarios_column{
-    text-align: center;
-  }  
-  .icons_size{
-    width: 50%;
-  }
-}
