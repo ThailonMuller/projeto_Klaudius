@@ -308,8 +308,7 @@ span:hover{
     display: flex;
     flex-direction: initial;
   }
-  .direction_icons_2{
-    background-color: red;
+  .direction_icons_2{    
     flex-direction: column;
   }
   .img_size{
