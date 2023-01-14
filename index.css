@@ -262,15 +262,16 @@ span:hover{
   font: normal normal bold 20px/45px Ubuntu;
   letter-spacing: 4px;
 }
-.container_galeria{
-  width: 100%;
+.wd-33{
+  width: 33.3%;
 }
+
 
 
 @media (max-width: 1375px) { 
   /* Square Blue */
   .container_banner > img{
-    width: 100vw;
+    width: 100%;
   }
   .square_blue{
     width: 50%;
@@ -322,11 +323,13 @@ span:hover{
   }
 
 /* galeria de imgs Inspiração 1 a 6 */
-  .container_galeria > div > img{
-    justify-content: space-between;
-  }
-
+  
 }
+
+
+
+
+
 
 @media (max-width: 1075px) {
   .text_margin{    
