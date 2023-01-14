@@ -294,6 +294,9 @@ span:hover{
 
 /* galeria de imgs Inspiração 1 a 6 */
  
+
+
+
 }
 
 @media (max-width: 1425px){
@@ -309,6 +312,7 @@ span:hover{
     flex-direction: initial;
   }
   .direction_icons_2{    
+    align-items: center;
     flex-direction: column;
   }
   .img_size{
