@@ -45,3 +45,11 @@
     --bs-pagination-active-border-color: !important;
     --bs-pagination-hover-border-color: var(--color3-bl) !important;
 }
+@media (max-width: 414px) {
+    .text_retangulo{
+        font-size: 40px;
+    }
+    .retangulo{
+        height: 6rem;
+    }
+}

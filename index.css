@@ -81,7 +81,6 @@ nav {
   border-color: var(--color4-tr);
 }
 
-
 .nav-list.active {
   transform: translateX(0);
 }
@@ -107,7 +106,6 @@ nav {
 .mobile-menu.active .line3 {
   transform: rotate(45deg) translate(-5px, -7px);
 }
-
 span:hover{
   border-bottom: solid 3px var(--color3-bl);
   padding-bottom: 0.5rem;
@@ -153,12 +151,6 @@ span:hover{
 .ft_text_ficou{
   font: normal normal normal 20px/35px Ubuntu;
 }
-
-
-
-
-
-
 
 /* Quadrado azul Soluções e Inspirações*/
 .container_banner{
@@ -218,7 +210,6 @@ span:hover{
 .wd-33{
   width: 33.3%;
 }
-
 .container_converse_c{
   position: absolute;
 }
@@ -229,6 +220,72 @@ span:hover{
   width: 70%;
 }
 
+/* Botoes Converse com a gente telefone, e-mail, endereço, WhatsApp */
+.square_blue_buttons{
+  width: 5rem;
+  height: 5rem;
+  background-color: var(--color3-bl);
+  border: none;
+}
+.ft_title_btns{
+  font: normal normal bold 20px/35px Playfair Display;
+  letter-spacing: 0px;
+}
+.ft_text_btns{
+  font: normal normal normal 18px/35px Ubuntu;
+  letter-spacing: 0px;
+}
+.icons_filter{
+  filter: invert(1);
+}
+
+/* Envie uma mensagem, tarja azul */
+.bg_wall{
+  background-image: url(assets/imagem-contato-filtro.png);
+}
+.btn_submit{
+  background-color: var(--color3-bl);
+  width: 8rem;
+  height: 3rem;
+  padding: 0;
+  border: none;
+  color: var(--color1-wt);
+  font: normal normal bold 20px/45px Ubuntu;
+  letter-spacing: 4px;
+}
+.ft_title_contato{
+  font: normal normal bold 40px/45px Playfair Display;
+  letter-spacing: 0px;
+  color: var(--color1-wt);
+}
+.ft_text_contato{
+  font: normal normal normal 20px/35px Ubuntu;
+  letter-spacing: 0px;
+  color: var(--color1-wt);
+}
+
+/* Formulário */
+.margin_formulario{
+  width: 32rem;
+}
+.style_form{
+  border-style: none;
+  border-bottom: 1px solid var(--color2-bk);
+}
+.box_size{
+  resize: none;
+}
+
+/* Footer */
+.logo_footer{
+  margin-left: 4rem;
+  width: 16rem;
+}
+.copy_right{
+  font: normal normal normal 20px/35px Ubuntu;
+  letter-spacing: 0px;
+  margin-right: 4rem;
+}
 
 @media (max-width: 1610px){
   .box_icons{
@@ -303,7 +360,6 @@ span:hover{
     flex-direction: column;
   }  
 }
-
 
 @media (max-width: 1140px) {
   body {
@@ -653,87 +709,3 @@ span:hover{
   }
    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Botoes Converse com a gente telefone, e-mail, endereço, WhatsApp */
-.square_blue_buttons{
-  width: 5rem;
-  height: 5rem;
-  background-color: var(--color3-bl);
-  border: none;
-}
-.ft_title_btns{
-  font: normal normal bold 20px/35px Playfair Display;
-  letter-spacing: 0px;
-}
-.ft_text_btns{
-  font: normal normal normal 18px/35px Ubuntu;
-  letter-spacing: 0px;
-}
-.icons_filter{
-  filter: invert(1);
-}
-
-/* Envie uma mensagem, tarja azul */
-.bg_wall{
-  background-image: url(assets/imagem-contato-filtro.png);
-}
-.btn_submit{
-  background-color: var(--color3-bl);
-  width: 8rem;
-  height: 3rem;
-  padding: 0;
-  border: none;
-  color: var(--color1-wt);
-  font: normal normal bold 20px/45px Ubuntu;
-  letter-spacing: 4px;
-}
-
-.ft_title_contato{
-  font: normal normal bold 40px/45px Playfair Display;
-  letter-spacing: 0px;
-  color: var(--color1-wt);
-}
-.ft_text_contato{
-  font: normal normal normal 20px/35px Ubuntu;
-  letter-spacing: 0px;
-  color: var(--color1-wt);
-}
-
-/* Formulário */
-.margin_formulario{
-  width: 32rem;
-}
-.style_form{
-  border-style: none;
-  border-bottom: 1px solid var(--color2-bk);
-}
-.box_size{
-  resize: none;
-}
-
-/* Footer */
-.logo_footer{
-  margin-left: 4rem;
-  width: 16rem;
-}
-.copy_right{
-  font: normal normal normal 20px/35px Ubuntu;
-  letter-spacing: 0px;
-  margin-right: 4rem;
-}
-
