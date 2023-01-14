@@ -1,48 +1,47 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-:root {    
+
+:root {
     --color1-wt: #FFFFFF;
     --color2-bk: #000000;
     --color3-bl: #005B7A;
 }
+
 /* .title_default{
     font-family: 'Playfair Display';
 }
 .paragraph_default{
     font-family: 'Ubuntu';
 } */
-.text_retangulo{
+.text_retangulo {
     font: normal normal normal 55px/70px Playfair Display;
     letter-spacing: 0px;
     color: var(--color1-wt);
 }
-.drop_produtos{    
-    text-align: center;
-    padding: 8px 16px;
-    border: none;
-    background-color: #fff;
-}
-.retangulo{    
+
+.retangulo {
     height: 12.5rem;
     background-color: var(--color3-bl);
 }
-.page-link{   
+
+.page-link {
     width: 3rem;
-    margin-left: 10px !important; 
+    margin-left: 10px !important;
 }
-.pagination {    
+
+.pagination {
     --bs-pagination-font-size: 1rem;
-    --bs-pagination-color: var(--color2-bk) !important; 
+    --bs-pagination-color: var(--color2-bk) !important;
     --bs-pagination-hover-color: var(--color1-wt) !important;
     --bs-pagination-focus-color: var(--color1-wt) !important;
     --bs-pagination-hover-bg: var(--color3-bl) !important;
-    --bs-pagination-focus-bg: var(--color3-bl)!important;
+    --bs-pagination-focus-bg: var(--color3-bl) !important;
     --bs-pagination-focus-box-shadow: none !important;
     --bs-pagination-border-width: 2px !important;
     --bs-pagination-border-radius: 2px !important;
-    --bs-pagination-border-color: black !important;    
-    --bs-pagination-active-border-color: !important;  
+    --bs-pagination-border-color: black !important;
+    --bs-pagination-active-border-color: !important;
     --bs-pagination-hover-border-color: var(--color3-bl) !important;
 }
