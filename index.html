@@ -94,7 +94,7 @@
         <!-- Lista de Icones -->
         <div class="row">
           <div class="col-12 d-flex justify-content-center mt-5">
-            <div class="col-12 d-flex justify-content-around flex-wrap">
+            <div class="col d-flex justify-content-around flex-wrap">
               <figure><img class="icons_size" src="assets/icone-1.png"></figure>
               <figure><img class="icons_size" src="assets/icone-2.png"></figure>
               <figure><img class="icons_size" src="assets/icone-3.png"></figure>
@@ -188,8 +188,8 @@
         <div class="container-fluid">
           <div class="row">    
             <div class="col">
-
-              <div class="container-fluid mt-5 d-flex direction_icons_2">                
+              
+              <div class="container-fluid mt-5 d-flex box_column_icons">                
                 <div class="container_converse_c">
                   <div class="container_text">
                     <h2 class="ft_title_converse">Converse com a gente</h2>
@@ -198,34 +198,36 @@
                 </div>    
                 <img class="img-fluid img_size" src="assets/imagem-converse-com-a-gente.png">
                 
-                <div class="container-fluid d-flex align-items-center direction_icons">
-                  <div class="col-6 d-flex flex-wrap">
-                    <div class="container text-center">
-                      <button class="square_blue_buttons"><img class="icons_filter" src="assets/telephone_icon.png"></button>
-                        <h3 class="ft_title_btns">Telefone</h3>
-                        <p class="ft_text_btns">(51) 3593.2704</p>
+                
+                  <div class="container d-flex align-items-center flex-wrap">
+                    <div class="col box_icons">
+                      <div class="container text-center m_icons">
+                        <button class="square_blue_buttons"><img class="icons_filter" src="assets/telephone_icon.png"></button>
+                          <h3 class="ft_title_btns">Telefone</h3>
+                          <p class="ft_text_btns">(51) 3593.2704</p>
+                      </div>
+                      <div class="container text-center m_icons">
+                        <button class="square_blue_buttons"><img class="icons_filter" src="assets/email_icon.png"></button>
+                          <h3 class="ft_title_btns">E-mail</h3>
+                          <p class="ft_text_btns">klaudius@klaudius.com.br</p>
+                      </div>                    
                     </div>
-                    <div class="container text-center">
-                      <button class="square_blue_buttons"><img class="icons_filter" src="assets/email_icon.png"></button>
-                        <h3 class="ft_title_btns">E-mail</h3>
-                        <p class="ft_text_btns">klaudius@klaudius.com.br</p>
+
+                    <div class="col box_icons">
+                      <div class="container text-center">
+                        <button class="square_blue_buttons"><img class="icons_filter" src="assets/whatsapp_icon.png"></button>
+                          <h3 class="ft_title_btns">WhatsApp</h3>
+                          <p class="ft_text_btns">(51) 9982.8836</p>
+                      </div>
+                      <div class="container text-center">
+                        <button class="square_blue_buttons"><img class="icons_filter" src="assets/pin_icon.png"></button>
+                          <h3 class="ft_title_btns">Endereço</h3>
+                          <p class="ft_text_btns">Rincão, 131, Operário, Novo Hamburgo/RS</p>
+                      </div>
                     </div>
-                  
                   </div>
-                  <div class="col-6 d-flex flex-wrap">
-                    <div class="container text-center">
-                      <button class="square_blue_buttons"><img class="icons_filter" src="assets/whatsapp_icon.png"></button>
-                        <h3 class="ft_title_btns">WhatsApp</h3>
-                        <p class="ft_text_btns">(51) 9982.8836</p>
-                    </div>
-                    <div class="container text-center">
-                      <button class="square_blue_buttons"><img class="icons_filter" src="assets/pin_icon.png"></button>
-                        <h3 class="ft_title_btns">Endereço</h3>
-                        <p class="ft_text_btns">Rincão, 131, Operário, Novo Hamburgo/RS</p>                        
-                    </div>
-                  
-                  </div>
-                </div>
+
+                
               </div>
             </div>
           </div>
@@ -248,7 +250,7 @@
             <div class="col-6 text-center">                            
               <div class="col-12 d-flex align-items-center justify-content-center">
                 <div class="text-start d-flex align-items-center justify-content-center margin_formulario p-5">             
-                  <div class="col p-5 bg-white">
+                  <div class="col p-4 bg-white">
                     <input type="text" id="name_input" placeholder="Nome" class="w-100 style_form mb-2">
                     <input type="tel" id="phone_input" placeholder="Telefone" class="w-100 style_form mb-2">                   
                     <textarea id="msg_input" placeholder="Mensagem" rows="6" class="w-100 style_form mb-2 box_size"></textarea>

@@ -235,9 +235,15 @@ span:hover{
   left: 3rem;
   width: 70%;
 }
-.box_icons{
-  width: 100vw;
+
+
+@media (max-width: 1610px){
+  .box_icons{
+    min-width: 370px;
+  }
 }
+
+
 @media (max-width: 1375px) { 
   /* Square Blue */
   .container_banner > img{
@@ -269,15 +275,18 @@ span:hover{
     font-size: 16px;
     top: 3.32rem;
   }
+  .ft_text_deixe{
+    width: 55%;
+  }
 
 /* icones */
   .armarios_column{
     text-align: center;
   }  
-  .icons_size{
-    margin-left: 1rem;
+  .icons_size{  
     width: 70%;
   }
+  
 /* whatsApp */
   .box_whatsapp{
     padding: 14px;
@@ -292,33 +301,11 @@ span:hover{
     width: 80%;
   }
 
-/* galeria de imgs Inspiração 1 a 6 */
- 
-
-
+/* galeria de imgs Inspiração 1 a 6 */ 
 
 }
 
-@media (max-width: 1425px){
-  .direction_icons{
-    display: block;
-    flex-direction: column;
-  }
-}
 
-@media (max-width: 1178px){
-  .direction_icons{
-    display: flex;
-    flex-direction: initial;
-  }
-  .direction_icons_2{    
-    align-items: center;
-    flex-direction: column;
-  }
-  .img_size{
-    width: 758px;
-  }
-}
 
 @media (max-width: 1140px) {
   body {
@@ -359,9 +346,16 @@ span:hover{
   nav{
     margin: 0; 
   }
+  .box_column_icons{
+    flex-direction: column;
+  }
+  .ft_text_deixe{
+    width: 55%;
+  }
+  .box_whatsapp{
+    margin-right: 2.5rem;
+  }
 }
-
-
 
 @media (max-width: 1075px) {
   .text_margin{    
@@ -418,6 +412,32 @@ span:hover{
     font-size: 13px;
     top: 4.1rem;
   }
+  .ft_text_deixe{
+    width: 55%;
+  }
+  .box_whatsapp{
+    margin-right: 3rem;
+    margin-top: -5rem;
+  }
+  .box_icons{
+    display: flex;
+  }
+  .ft_title_btns{
+    font-size: 18px !important;
+  }
+  .ft_text_btns{
+    font-size: 14px !important;
+  }
+  .m_icons{
+    margin-top: -35px;
+  }
+  .copy_right{
+    font-size: 16px !important;
+  }
+  .logo_footer{
+    width: 25% !important;
+  }
+   
 }
 
 @media (max-width: 819px) {
@@ -452,7 +472,31 @@ span:hover{
     text-align: center;
     width: 100%;
   }
-  
+  .ft_text_deixe{
+    font-size: 18px;
+    width: 100%;
+  }
+  .ft_title_seuescritorio{
+    font-size: 32px;
+  }
+  .box_whatsapp{
+    margin-top: 1rem;
+    margin-right: auto;
+  }
+  .ft_title_converse{
+    font-size: 30px;
+  }
+  .ft_text_ficou{
+    font-size: 16px;
+    line-height: 1.5rem;
+  }
+  .ft_title_contato{
+    font-size: 30px !important;
+  }
+  .ft_text_contato{
+    font-size: 16px !important;
+    line-height: 1.5rem !important;
+  }
 }
 
 
