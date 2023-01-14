@@ -30,3 +30,40 @@
     position: static;
     margin-top: 6rem;
 }
+@media (max-width: 1610px){
+    .box_whatsapp_2{
+        margin-top: 2rem;
+        padding: 10px;
+    }
+    .box_whatsapp_2 img{
+        width: 34px;
+    }
+    .ft_text_quemsomos{
+        margin-top: 1rem;
+        text-align: justify;
+        padding: 0 2rem !important;
+    }  
+    .ft_title_quemsomos{
+        padding: 0 2.5rem !important;
+    }
+}
+@media (max-width: 414px){
+    .ft_text_quemsomos{
+        margin-left: 20px !important;
+        padding: 0 0rem !important;
+    }  
+    .ft_title_quemsomos{
+        margin-left: 20px !important;        
+        padding: 0 0.5rem !important;
+    }
+    .text_retangulo{
+        font-size: 40px;
+    }
+    .retangulo{
+        height: 6rem;
+    }
+    .box_whatsapp_2{
+        margin-top: 2rem;
+        margin-right: -0.8rem;
+    }    
+}

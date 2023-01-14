@@ -234,10 +234,15 @@ span:hover{
   .box_icons{
     min-width: 370px;
   }
+  .ft_text_quemsomos{
+    font-size: 16px !important;
+    line-height: 1.3rem !important;
+  }
+  
 }
 
 @media (max-width: 1375px) { 
-  /* Square Blue */
+/* Square Blue */
   .container_banner > img{
     width: 100%;
   }
@@ -293,9 +298,12 @@ span:hover{
     width: 80%;
   }
 
-/* galeria de imgs Inspiração 1 a 6 */ 
-
+/* Quem somos */
+  .box_quemsomos{
+    flex-direction: column;
+  }  
 }
+
 
 @media (max-width: 1140px) {
   body {
@@ -525,7 +533,6 @@ span:hover{
   }
 }
 
-/* Mobile */
 @media (max-width: 660px) {   
   .square_blue{ 
     height: 23rem;     
