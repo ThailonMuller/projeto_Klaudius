@@ -86,46 +86,6 @@ nav {
   border-color: var(--color4-tr);
 }
 
-@media (max-width: 1140px) {
-  body {
-    overflow-x: hidden;
-  }
-  .nav-list {
-    z-index: 999;
-    position: absolute;
-    top: 12vh;
-    right: 0;
-    width: 100vw;
-    height: 40vh;
-    background: var(--color5-bl-dark);
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    transform: translateX(100%);
-    transition: transform 0.3s ease-in;
-  }
-  .btn_produtos{
-    color: var(--color1-wt);
-    background-color: var(--color4-tr);
-  }
-  .nav-list li {
-    margin-left: 0;
-    opacity: 0;
-  }
-  .nav-list li a{
-    text-decoration: none;
-    color: var(--color1-wt);
-  }
-  .mobile-menu {
-    display: block;
-  }
-  .logo > img{
-    max-width: 80%;
-  }
-  nav{
-    margin: 0; 
-  }
-}
 
 .nav-list.active {
   transform: translateX(0);
@@ -266,8 +226,18 @@ span:hover{
   width: 33.3%;
 }
 
-
-
+.container_converse_c{
+  position: absolute;
+}
+.container_text{
+  position: relative;
+  top: 0rem;
+  left: 3rem;
+  width: 70%;
+}
+.box_icons{
+  width: 100vw;
+}
 @media (max-width: 1375px) { 
   /* Square Blue */
   .container_banner > img{
@@ -323,11 +293,70 @@ span:hover{
   }
 
 /* galeria de imgs Inspiração 1 a 6 */
-  
+ 
 }
 
+@media (max-width: 1425px){
+  .direction_icons{
+    display: block;
+    flex-direction: column;
+  }
+}
 
+@media (max-width: 1178px){
+  .direction_icons{
+    display: flex;
+    flex-direction: initial;
+  }
+  .direction_icons_2{
+    background-color: red;
+    flex-direction: column;
+  }
+  .img_size{
+    width: 758px;
+  }
+}
 
+@media (max-width: 1140px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-list {
+    z-index: 999;
+    position: absolute;
+    top: 12vh;
+    right: 0;
+    width: 100vw;
+    height: 40vh;
+    background: var(--color5-bl-dark);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+  }
+  .btn_produtos{
+    color: var(--color1-wt);
+    background-color: var(--color4-tr);
+  }
+  .nav-list li {
+    margin-left: 0;
+    opacity: 0;
+  }
+  .nav-list li a{
+    text-decoration: none;
+    color: var(--color1-wt);
+  }
+  .mobile-menu {
+    display: block;
+  }
+  .logo > img{
+    max-width: 80%;
+  }
+  nav{
+    margin: 0; 
+  }
+}
 
 
 
@@ -432,16 +461,6 @@ span:hover{
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /* Botoes Converse com a gente telefone, e-mail, endereço, WhatsApp */
 .square_blue_buttons{
   width: 5rem;
@@ -454,7 +473,7 @@ span:hover{
   letter-spacing: 0px;
 }
 .ft_text_btns{
-  font: normal normal normal 20px/35px Ubuntu;
+  font: normal normal normal 18px/35px Ubuntu;
   letter-spacing: 0px;
 }
 .icons_filter{
