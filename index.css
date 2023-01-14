@@ -150,9 +150,7 @@ span:hover{
 .ft_text_atendendo{
   font: normal normal normal 20px/35px Ubuntu;
   letter-spacing: 0px;
-  text-align: center;
-  margin: 0 auto;
-  width: 40%;
+  width: 59%;
 }
 .ft_title_converse{
   font: normal normal bold 40px/45px Playfair Display;
@@ -497,7 +495,31 @@ span:hover{
     font-size: 16px !important;
     line-height: 1.5rem !important;
   }
+  .box_form{ 
+    position: relative;   
+    left: 5.6rem;
+    width: 320px;
+  }
+  .box_footer{
+    align-items: center;
+    flex-direction: column;
+  }
+  .logo_footer{
+    margin-left: 0 !important;
+    min-width: 120px;
+  }
+  .copy_right{ 
+    margin-top: 10px; 
+    margin-left: 6rem !important;  
+    font-size: 14px !important;
+    width: 300px;
+  }
 }
+
+
+
+
+
 
 
 /* Mobile */
@@ -505,7 +527,143 @@ span:hover{
   .square_blue{ 
     height: 23rem;     
   }
+  .figure{
+    min-width: 15rem;
+  }
+  .ft_title_seuescritorio{
+    font-size: 26px;
+  }
+  .ft_text_atendendo{
+    font-size: 14px;
+    width: 100%;
+    line-height: 1.5rem;
+  }
+  .box_column_icons > img{
+    margin-top: 90px;
+  }
+  .box_icons{
+    margin-top: 40px;
+  }
 }
+
+@media (max-width: 500px){
+  .ft_title_converse{
+    font-size: 24px;
+  }
+  .ft_text_ficou{
+    font-size: 12px;
+    line-height: 1.2rem;
+  }
+  .square_blue_buttons{
+    width: 60px !important;
+    height: 60px !important;
+  }
+  .square_blue_buttons > img{
+    width: 25px;
+  }
+  .ft_title_btns{
+    font-size: 16px !important;
+  }
+  .ft_text_btns{
+    font-size: 12px !important;
+    line-height: 1rem !important;
+  }
+  .box_icons{
+    margin-left: -30px;
+  }
+  .m_form{
+    display: block;
+    flex-direction: column;
+  }
+  .ft_title_contato{
+    margin-left: 14rem;
+    margin-top: 1rem;
+    text-align: center;
+    width: 300px;
+  }
+  .ft_text_contato{
+    margin-left: 14rem;
+    text-align: center;
+    width: 300px;
+  }
+  .box_form{ 
+    position: relative;   
+    left: 7rem;
+    width: 380px;
+  }
+  .btn_submit{
+    width: 7rem !important;
+    font-size: 18px !important;
+  } 
+  .ft_title_converse{
+    margin-left: 1rem;
+    width: 300px;
+    font-size: 30px;
+  }
+  .ft_text_ficou{
+    text-align: center;
+    margin-left: 1rem;
+    width: 300px;
+    font-size: 14px;
+  }
+}
+
+
+
+
+
+
+
+@media (max-width: 414px) {   
+  .icons_size{
+    width: 40%;
+  }  
+  figure{
+    display: flex;
+    justify-content: center;
+  }
+  .ft_title_converse{
+    margin-left: -2rem;
+  }
+  .ft_text_ficou{
+    margin-left: -2rem;
+  }
+
+
+  .ft_title_seuescritorio{
+    font-size: 24px;
+  }
+  .ft_text_atendendo{
+    margin-left: 12px;
+  }
+  .ft_title_contato{
+    margin-left: 11.5rem;
+  }
+  .ft_text_contato{
+    margin-left: 11.5rem;
+  }
+  .box_form{ 
+    position: relative;   
+    left: 5.6rem;
+    width: 320px;
+  }
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Botoes Converse com a gente telefone, e-mail, endereço, WhatsApp */
